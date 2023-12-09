@@ -31,18 +31,6 @@ This is an [Expense Tracker](https://itksweb.github.io/expense-tracker/).
 
 - [React](https://reactjs.org/) - JS library
 
-### What I learned
-
-```js
-const grad = {
-  background: `linear-gradient(to right , ${color1}, ${color2})`,
-};
-```
-
-### Continued development
-
-Hope to apply and improve on these principles in more advanced projects that have to do with theme switching
-
 ## Author
 
 - WhatsApp - [here](https://wa.me/2348060719978)
