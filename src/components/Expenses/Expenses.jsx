@@ -17,16 +17,14 @@ const Expenses = ({ items }) => {
   };
 
   return (
-    <div>
-      <Card className="expenses">
-        <ExpensesFilter
-          selected={filteredYear}
-          onChangeFilter={filterChangeHandler}
-        />
-        <ExpensesChart expenses={filteredExpenses} />
-        <ExpensesList items={filteredExpenses} />
-      </Card>
-    </div>
+    <Card className="expenses">
+      <ExpensesFilter
+        selected={filteredYear}
+        onChangeFilter={filterChangeHandler}
+      />
+      <ExpensesChart expenses={filteredExpenses} />
+      <ExpensesList items={filteredExpenses} />
+    </Card>
   );
 };
 
